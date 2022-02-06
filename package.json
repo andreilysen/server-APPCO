@@ -1,0 +1,43 @@
+{
+  "name": "server-appco",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./bin/server.js",
+    "start:dev": "nodemon ./bin/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andreilysen/server-AppCo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andreilysen/server-AppCo/issues"
+  },
+  "homepage": "https://github.com/andreilysen/server-AppCo#readme",
+  "dependencies": {
+    "axios": "^0.25.0",
+    "cors": "^2.8.5",
+    "dotenv": "^15.0.0",
+    "express": "^4.17.2",
+    "helmet": "^5.0.2",
+    "joi": "^17.6.0",
+    "mkdirp": "^1.0.4",
+    "mongoose": "^6.1.9",
+    "mongoose-paginate-v2": "^1.5.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.12.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.2.0",
+    "nodemon": "^2.0.15"
+  }
+}
